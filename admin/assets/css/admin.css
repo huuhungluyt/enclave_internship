@@ -1,0 +1,110 @@
+/*FOOTER CSS*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 0px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/**/
+.popup-cart{
+  width: 40%;
+    background: rgba(39, 40, 42, 0.7);
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    top: 70px;
+    left: 30%;
+    display: none;
+}
+.popup-cart .content{
+  padding: 40px 20px;
+}
+.popup-cart .content span{
+  font-size: 4em;
+  color:white;
+}
+.popup-cart .content p{
+  font-size: 19px;
+    color: #fe980f;
+}
+.warning-add{
+  margin:0;
+  color: red;
+  font-size: 13px;
+}
+/*Chart home*/
+.chart-home{
+  margin-top: 80px;
+}
+/*.chart-home .col-md-5{
+  border-radius: 5px;
+  margin-left: 30px;
+}*/
+
+/*.chart-home .col-md-5:first-child{
+  margin-left: 90px;
+}*/
+
+/*HEADER CUSTOM STYLE
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}*/
